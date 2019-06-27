@@ -1,0 +1,27 @@
+pkgbase = feeluown
+	pkgdesc = FeelUOwn Music Player
+	pkgver = 3.0a7
+	pkgrel = 3
+	url = https://github.com/cosven/FeelUOwn
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = python-quamash
+	depends = python-pyqt5
+	depends = mpv
+	depends = python-beautifulsoup4
+	depends = python-marshmallow
+	depends = python-pycryptodome
+	depends = python-requests
+	depends = python-mutagen
+	depends = python-fuzzywuzzy
+	depends = python-opengl
+	depends = python-janus
+	source = https://files.pythonhosted.org/packages/source/f/feeluown/feeluown-3.0a7.tar.gz
+	source = feeluown.desktop
+	sha256sums = aa1860b600dc77e5a7c7c5db08c4b9aef69d5dd91d79136163a81d4857b7b9f7
+	sha256sums = 2b2716ee280c1eeba6d20227173e1325c64a4a3fcb200e038e7777de5cddaebb
+
+pkgname = feeluown
+
