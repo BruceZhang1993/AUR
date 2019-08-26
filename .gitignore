@@ -6,3 +6,4 @@ src
 pkg
 *.pkg.tar.xz
 /old.txt~
+*.deb

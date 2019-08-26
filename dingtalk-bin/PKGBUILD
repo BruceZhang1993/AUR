@@ -1,0 +1,25 @@
+# Maintainer: Bruce Zhang
+pkgname=dingtalk-bin
+pkgver=1.0.0
+pkgrel=1
+_debrel=2
+pkgdesc="钉钉"
+arch=('x86_64')
+url="https://www.dingtalk.com/"
+license=('unknown')
+provides=('dingtalk')
+conflicts=('dingtalk')
+source=("manual://dingtalk_${pkgver}-${_debrel}_amd64.deb")
+sha256sums=('d2a0ec5d00e83545bce3dd6497dd88813cd284d51240b94098b866da90955538')
+
+prepare() {
+	cd "$srcdir"
+    mkdir "$pkgname"
+    tar Jxf data.tar.xz -C "$pkgname"
+}
+
+package() {
+	cd "$srcdir/$pkgname"
+    cp -r opt "$pkgdir/"
+    cp -r usr "$pkgdir/"
+}

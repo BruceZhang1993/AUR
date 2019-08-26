@@ -1,0 +1,14 @@
+pkgbase = dingtalk-bin
+	pkgdesc = 钉钉
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://www.dingtalk.com/
+	arch = x86_64
+	license = unknown
+	provides = dingtalk
+	conflicts = dingtalk
+	source = manual://dingtalk_1.0.0-2_amd64.deb
+	sha256sums = d2a0ec5d00e83545bce3dd6497dd88813cd284d51240b94098b866da90955538
+
+pkgname = dingtalk-bin
+
