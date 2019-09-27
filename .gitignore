@@ -2,6 +2,7 @@
 /new.txt
 *.src.zip
 *.src.tar.gz
+*.orig.tar.gz
 src
 pkg
 *.pkg.tar.xz
