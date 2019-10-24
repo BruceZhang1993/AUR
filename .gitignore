@@ -6,6 +6,7 @@
 src
 pkg
 *.pkg.tar.xz
+*.pkg.tar.zst
 /old.txt~
 *.deb
 /.env
