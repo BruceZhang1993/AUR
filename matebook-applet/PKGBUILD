@@ -19,8 +19,8 @@ build() {
 
 package() {
 	cd "$srcdir/$pkgname-$pkgver"
-	install -Dm755 matebook-applet "$pkgdir/usr/bin/"
+	install -Dm755 matebook-applet "$pkgdir/usr/bin/matebook-applet"
 	install -Dm644 matebook-applet.desktop "$pkgdir/usr/share/applications/matebook-applet.desktop"
-	install -Dm644 assets/matebook.png "$pkgdir/usr/share/icons/hicolor/512x512/apps/matebook.png"
+	install -Dm644 assets/matebook-applet.png "$pkgdir/usr/share/icons/hicolor/512x512/apps/matebook-applet.png"
 	install -Dm644 matebook-applet.1 "$pkgdir/usr/share/man/man1/matebook-applet.1"
 }
