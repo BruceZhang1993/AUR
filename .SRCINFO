@@ -11,6 +11,7 @@ pkgbase = cpod
 	makedepends = moreutils
 	makedepends = nvm
 	makedepends = gulp
+	makedepends = python2
 	depends = electron2
 	provides = cpod
 	conflicts = cpod-bin
