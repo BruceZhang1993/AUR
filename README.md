@@ -1,4 +1,4 @@
-# Bruceutut AUR Reposity
+# Bruceutut PKGBUILD Repository
 
   Provide PKGBUILDs maintained by bruceutut
 
