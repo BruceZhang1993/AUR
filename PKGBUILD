@@ -29,6 +29,7 @@ build() {
 	cd "$_name-$pkgver"
 	gulp
 	yarn run pack
+	source /usr/share/nvm/init-nvm.sh
 	nvm deactivate
 	nvm uninstall "$_nodeversion"
 }
