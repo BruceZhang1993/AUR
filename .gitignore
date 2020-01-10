@@ -10,3 +10,4 @@ pkg
 /old.txt~
 *.deb
 /.env
+/.idea
