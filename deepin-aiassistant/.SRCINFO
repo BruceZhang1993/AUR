@@ -1,0 +1,20 @@
+pkgbase = deepin-aiassistant
+	pkgdesc = Deepin desktop voice AI assistant
+	pkgver = 1.0.5_1
+	pkgrel = 1
+	url = https://www.deepin.org/
+	arch = x86_64
+	license = unknown
+	source = manual://deepin-aiassistant_1.0.5-1_amd64.deb
+	source = manual://libdtkcore.so.5.0.13
+	source = manual://libdtkgui.so.5.0.13
+	source = manual://libdtkwidget.so.5.0.13
+	source = manual://libxcb-util.so.0.0.0
+	sha256sums = a6b1d7cb7b1992fd69af1a52732b3f4bbc4192ce37fbd0af25e39ac51259e488
+	sha256sums = 47cf424bc0e42d1be130cff105fe650405afcbe4cf6a1b843c421930fa0e0208
+	sha256sums = 4f8cd27f95e3f1491f61ab86999080335d5dca5836537c33ffba9c1051ae4b68
+	sha256sums = 60619e06f6b22a055648bdfeeb680c13c0cf5f67fa1ba9ee7ec9d882fddbeb3b
+	sha256sums = dfec48c7793cd2ccd7ef7b69258e7d1b4d9b099c317e357be761bad63d00dbfa
+
+pkgname = deepin-aiassistant
+
