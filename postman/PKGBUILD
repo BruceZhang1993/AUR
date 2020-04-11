@@ -14,7 +14,7 @@ source_x86_64=(
   "$pkgname-$pkgver-x86_64.orig.tar.gz::https://dl.pstmn.io/download/version/$pkgver/linux64"
 )
 source=(
-  "EULA.pdf::https://www.getpostman.com/terms/Postman_EULA_May_2018.pdf"
+  "EULA.pdf::https://www.postman.com/terms/Postman_EULA_May_2018.pdf"
   "postman.desktop"
   "postman.sh"
 )
