@@ -11,3 +11,4 @@ pkg
 *.deb
 /.env
 /.idea
+*.tar.gz
