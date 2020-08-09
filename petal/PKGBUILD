@@ -41,7 +41,7 @@ build() {
 		yarn build:electron:prod && yarn build
 	fi
 	cp -r build app/build
-	# Temperarily fix build script
+	# Temporarily fix build script
 	./node_modules/.bin/electron-builder --linux --dir
 	rm -r app/build
 
